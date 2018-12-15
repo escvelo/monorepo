@@ -22,6 +22,8 @@ Additionally, install keras recent verision using (pip install keras)
 
 # ROS installation for python
 http://wiki.ros.org/
+Follow below link for Ubuntu 18.04
+https://rtt-lwr.readthedocs.io/en/latest/install/install-18.04-melodic.html
 
 
 
