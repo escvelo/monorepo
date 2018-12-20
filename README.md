@@ -25,5 +25,20 @@ http://wiki.ros.org/
 Follow below link for Ubuntu 18.04
 https://rtt-lwr.readthedocs.io/en/latest/install/install-18.04-melodic.html
 
+# Building and Running the two packages in the code
+
+Follow steps described in:
+http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber
+
+Created two packages:
+   beginners_tutorials : simple hello world text is printed
+   image_classification: a pre-trained ResNet tensorflow model classifies simple input image "elephant.jpg" and prints the predicted output
+	Output looks like this on screen:
+
+              [INFO] [1545328572.996465]: [(u'n02504458', u'African_elephant', 0.8857361), (u'n01871265', u'tusker', 0.067711234), (u'n02504013', u'Indian_elephant', 0.03694539)] 1545328573.0
+              [INFO] [1545328573.093978]: [(u'n02504458', u'African_elephant', 0.8857361), (u'n01871265', u'tusker', 0.067711234), (u'n02504013', u'Indian_elephant', 0.03694539)] 1545328573.09
+	
+
+
 
 
