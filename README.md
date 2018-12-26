@@ -46,6 +46,14 @@ Created two packages:
          $ remember to source source devel/setup.bash in all the terminals
        a) roslaunch video_stream_opencv video_file.launch
        b) rosrun image_classification clasify_video_stream.py 
+	
+	
+# Object detection using YOLO V2 
+Reading the relevant paper and implementing below model for our environment.
+
+https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
+https://github.com/experiencor/keras-yolo2
+
 
 
 	
