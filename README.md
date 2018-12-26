@@ -37,6 +37,17 @@ Created two packages:
 
               [INFO] [1545328572.996465]: [(u'n02504458', u'African_elephant', 0.8857361), (u'n01871265', u'tusker', 0.067711234), (u'n02504013', u'Indian_elephant', 0.03694539)] 1545328573.0
               [INFO] [1545328573.093978]: [(u'n02504458', u'African_elephant', 0.8857361), (u'n01871265', u'tusker', 0.067711234), (u'n02504013', u'Indian_elephant', 0.03694539)] 1545328573.09
+
+
+
+***************************************run classify_video_stream.py***************************************
+1) Set the path to videos in <PATH to monorepo>/src/video_stream_opencv/launch/video_file.launch by setting argument value of "video_stream_provider"
+2) Run following three commands in seperate terminals
+         $ remember to source source devel/setup.bash in all the terminals
+       a) roslaunch video_stream_opencv video_file.launch
+       b) rosrun image_classification clasify_video_stream.py 
+
+
 	
 
 
