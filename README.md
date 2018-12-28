@@ -54,6 +54,10 @@ Reading the relevant paper and implementing below model for our environment.
 https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
 https://github.com/experiencor/keras-yolo2
 
+Yolo v2 very good documentation:
+https://www.datasciencecentral.com/profiles/blogs/autonomous-driving-car-detection-with-yolo-model-with-keras-in
+Also Andrew NG has very good coursera deep learning course in which he explains yolo_v2
+
 
 
 	
