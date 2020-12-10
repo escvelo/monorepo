@@ -6,27 +6,6 @@ from custom_types import *
 from scipy.spatial import cKDTree
 import matplotlib.pyplot as plt 
 from scipy.sparse.csgraph import shortest_path
-
-
-'''
- Given the current position (arg1) of robot in room_img (arg2), 
- this funtion returns the next_position (@return) of the robot. 
- Policy (arg3) indicates the approach used to estimate next_position. Policy defaults to random. 
- It also returns if calculated next_position collides with boundary in room_img. 
- The collision_detected (@return) is true if value at next_position is white (=255).
- 
- Parameters:
-	current_pos (tuple) : first element in the tuple is x-coordinate (int), second element specifies y-coordinate (int)
-	room_img (int8, int8): 2D array of int8 format with range 0-255
-	policy (str): represents the state
- Returns:
-	next_pos (tuple) : first element in the tuple is x-coordinate (int), second element specifies y-coordinate (int)
-	collision_detected (bool) : returns true if collision exists.
-	
-'''
-
-
-
 		
 def interpolate(start, end, resolution):
     vector = end-start
@@ -163,33 +142,3 @@ class sPRM:
 			
 		plt.show()
 		
-
-
-
-
-	
-	
-	
-'''	
-def next_position(current_pos, room_img, policy = "random"):
-	step = 5
-	delta_pixel_coordintates = [Vector2D(0,step), Vector2D(- step,0), Vector2D(0,- step), Vector2D(step,0)]
-	sample_delta_index = random.randint(0, 3) #change
-	delta_pos = delta_pixel_coordintates[sample_delta_index]
-	next_pos = current_pos + delta_pos
-	collision_detected = isInCollision(next_pos, room_img)	
-	return next_pos, collision_detected
-	
-def isInCollision(coordinates, img):
-	x, y =  coordinates.x, coordinates.y
-	if x >= img.size[0] or y >= img.size[1]:
-		return True
-	img= np.array(img)
-	pixel_color = img[y, x]
-
-	if pixel_color[0] != 255 and pixel_color[1] != 255 and pixel_color[2] != 255:
-		return True
-	else: 
-		return False
-		
-'''
