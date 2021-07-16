@@ -43,7 +43,39 @@ https://www.researchgate.net/publication/221075120_RRTConnect_An_Efficient_Appr
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Output
 
+
+## Code snippets 
+
+### Checking if path between two configuration is valid. The valid means no collition lies on the chosen path
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/isValidEdge.JPG)
+
+### Finding shortest path between "start" and "end" configuration.
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/shortestPath.JPG)
+
+### Check if robot can be placed at given configuration.
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/uniform_cfreeSpace.JPG)
+
+### Implementation of Bridge Test paper
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/Bridge_test.JPG)
+
+### Implement the Gaussian Sampling
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/Gaussian_sigma40.JPG)
+
+## Configuration space overlaid on workspace
+
+### number of samples n = 1000 and radius r = 100, with uniform sampling
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/cs_n_1000_r_100_BT_uniform.JPG)
+
+### number of samples n = 100 and radius r = 100, with uniform sampling 
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/cs_n_100_r_100_sigma_40_uniform.JPG)
+
+### number of samples n = 100 and radius r = 100, with bridgetest sampling 
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/cs_n_100_r_100_sigma_40_bridgetest.JPG)
+
+### number of samples n = 100 and radius r = 100, with gaussian sampling 
+![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/cs_n_100_r_100_sigma_40_gaussian.JPG)
 
 
 
