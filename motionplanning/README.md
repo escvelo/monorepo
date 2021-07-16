@@ -48,7 +48,7 @@ https://www.researchgate.net/publication/221075120_RRTConnect_An_Efficient_Appr
 
 ## Code snippets 
 
-### Checking if path between two configuration is valid. The valid means no collition lies on the chosen path
+### Checking if path between two configuration is not in collision. 
 ![alt text](https://github.com/escvelo/monorepo/blob/master/motionplanning/output/isValidEdge.JPG)
 
 ### Finding shortest path between "start" and "end" configuration.
