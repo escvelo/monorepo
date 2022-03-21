@@ -1,6 +1,6 @@
 Recruitment Task
 
-#3D Pitch Player Pose Estimation
+# 3D Pitch Player Pose Estimation
 
 ## Problem Definition
 
